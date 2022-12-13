@@ -3,7 +3,7 @@
   "name": "Slack",
   "description": "Set your Slack status.",
   "icon": "icon.png",
-  "author": "HenriChabrand",
+  "author": "Ruce Social",
   "license": "MIT",
   "authentification": {
     "method": "oauth_2",
@@ -17,6 +17,13 @@
       "name": "Set Slack Status",
       "description": "Set Slack Status.",
       "auth_scope": ["users.profile:write"]
+    },
+    {
+      "id": "set-test-slack-status",
+      "name": "Set Test Slack Status",
+      "description": "Set Test Slack Status.",
+      "auth_scope": ["users.profile:write"]
     }
   ]
 }
+
